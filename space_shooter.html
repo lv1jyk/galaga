@@ -4,14 +4,23 @@
 	<title>Space Shooter Demo</title>
 	<style>
 		canvas {
-			position: relative;
+			position: absolute;
+			top: 0px;
+			left: 0px;
 			border: 1px solid #000;
 			background: transparent;
+
 		}		
 	</style>
 </head>
 <body>
 	<canvas id ="background" width ="600" height="360"> 
+		canvas
+	</canvas>
+<canvas id ="ship" width ="600" height="360"> 
+		canvas
+	</canvas>
+<canvas id ="main" width ="600" height="360"> 
 		canvas
 	</canvas>
 	<script src="space_shooter.js"></script>
